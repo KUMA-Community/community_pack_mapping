@@ -1,0 +1,4982 @@
+[
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1055.011",
+		"TechniqueName" : "Extra Window Memory Injection"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1055.011",
+		"TechniqueName" : "Extra Window Memory Injection"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1053.005",
+		"TechniqueName" : "Scheduled Task"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1053.005",
+		"TechniqueName" : "Scheduled Task"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1053.005",
+		"TechniqueName" : "Scheduled Task"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1205.002",
+		"TechniqueName" : "Socket Filters"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1205.002",
+		"TechniqueName" : "Socket Filters"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1205.002",
+		"TechniqueName" : "Socket Filters"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1560.001",
+		"TechniqueName" : "Archive via Utility"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1021.005",
+		"TechniqueName" : "VNC"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1047",
+		"TechniqueName" : "Windows Management Instrumentation"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1113",
+		"TechniqueName" : "Screen Capture"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1027.011",
+		"TechniqueName" : "Fileless Storage"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1037",
+		"TechniqueName" : "Boot or Logon Initialization Scripts"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1037",
+		"TechniqueName" : "Boot or Logon Initialization Scripts"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1557",
+		"TechniqueName" : "Adversary-in-the-Middle"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1557",
+		"TechniqueName" : "Adversary-in-the-Middle"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1033",
+		"TechniqueName" : "System Owner/User Discovery"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1583",
+		"TechniqueName" : "Acquire Infrastructure"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218.011",
+		"TechniqueName" : "Rundll32"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1613",
+		"TechniqueName" : "Container and Resource Discovery"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1583.007",
+		"TechniqueName" : "Serverless"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1132.001",
+		"TechniqueName" : "Standard Encoding"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1027.009",
+		"TechniqueName" : "Embedded Payloads"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1556.003",
+		"TechniqueName" : "Pluggable Authentication Modules"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1556.003",
+		"TechniqueName" : "Pluggable Authentication Modules"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1556.003",
+		"TechniqueName" : "Pluggable Authentication Modules"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1578.004",
+		"TechniqueName" : "Revert Cloud Instance"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1592",
+		"TechniqueName" : "Gather Victim Host Information"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1596.003",
+		"TechniqueName" : "Digital Certificates"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1056.001",
+		"TechniqueName" : "Keylogging"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1056.001",
+		"TechniqueName" : "Keylogging"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1564.012",
+		"TechniqueName" : "File/Path Exclusions"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1222.002",
+		"TechniqueName" : "Linux and Mac File and Directory Permissions Modification"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1110.001",
+		"TechniqueName" : "Password Guessing"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1216.001",
+		"TechniqueName" : "PubPrn"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1597.002",
+		"TechniqueName" : "Purchase Technical Data"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1003",
+		"TechniqueName" : "OS Credential Dumping"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1129",
+		"TechniqueName" : "Shared Modules"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1602",
+		"TechniqueName" : "Data from Configuration Repository"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1561.002",
+		"TechniqueName" : "Disk Structure Wipe"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1498.001",
+		"TechniqueName" : "Direct Network Flood"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1574.007",
+		"TechniqueName" : "Path Interception by PATH Environment Variable"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1574.007",
+		"TechniqueName" : "Path Interception by PATH Environment Variable"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1574.007",
+		"TechniqueName" : "Path Interception by PATH Environment Variable"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1213.002",
+		"TechniqueName" : "Sharepoint"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1006",
+		"TechniqueName" : "Direct Volume Access"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1588.007",
+		"TechniqueName" : "Artificial Intelligence"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1564.008",
+		"TechniqueName" : "Email Hiding Rules"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1491.002",
+		"TechniqueName" : "External Defacement"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1027.013",
+		"TechniqueName" : "Encrypted/Encoded File"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1590.005",
+		"TechniqueName" : "IP Addresses"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1499.001",
+		"TechniqueName" : "OS Exhaustion Flood"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1014",
+		"TechniqueName" : "Rootkit"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.013",
+		"TechniqueName" : "PowerShell Profile"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.013",
+		"TechniqueName" : "PowerShell Profile"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1059.007",
+		"TechniqueName" : "JavaScript"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1590.002",
+		"TechniqueName" : "DNS"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1123",
+		"TechniqueName" : "Audio Capture"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1543",
+		"TechniqueName" : "Create or Modify System Process"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1543",
+		"TechniqueName" : "Create or Modify System Process"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1133",
+		"TechniqueName" : "External Remote Services"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1133",
+		"TechniqueName" : "External Remote Services"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.006",
+		"TechniqueName" : "LC_LOAD_DYLIB Addition"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.006",
+		"TechniqueName" : "LC_LOAD_DYLIB Addition"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1539",
+		"TechniqueName" : "Steal Web Session Cookie"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1053.007",
+		"TechniqueName" : "Container Orchestration Job"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1053.007",
+		"TechniqueName" : "Container Orchestration Job"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1053.007",
+		"TechniqueName" : "Container Orchestration Job"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1568.002",
+		"TechniqueName" : "Domain Generation Algorithms"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1036.007",
+		"TechniqueName" : "Double File Extension"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1548.002",
+		"TechniqueName" : "Bypass User Account Control"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1548.002",
+		"TechniqueName" : "Bypass User Account Control"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1016.001",
+		"TechniqueName" : "Internet Connection Discovery"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1548.003",
+		"TechniqueName" : "Sudo and Sudo Caching"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1548.003",
+		"TechniqueName" : "Sudo and Sudo Caching"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1560.003",
+		"TechniqueName" : "Archive via Custom Method"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1578",
+		"TechniqueName" : "Modify Cloud Compute Infrastructure"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1584.008",
+		"TechniqueName" : "Network Devices"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1583.008",
+		"TechniqueName" : "Malvertising"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1069",
+		"TechniqueName" : "Permission Groups Discovery"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1114",
+		"TechniqueName" : "Email Collection"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1003.002",
+		"TechniqueName" : "Security Account Manager"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1596.002",
+		"TechniqueName" : "WHOIS"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1542.001",
+		"TechniqueName" : "System Firmware"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1542.001",
+		"TechniqueName" : "System Firmware"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1594",
+		"TechniqueName" : "Search Victim-Owned Websites"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1069.003",
+		"TechniqueName" : "Cloud Groups"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1574.011",
+		"TechniqueName" : "Services Registry Permissions Weakness"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1574.011",
+		"TechniqueName" : "Services Registry Permissions Weakness"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1574.011",
+		"TechniqueName" : "Services Registry Permissions Weakness"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1596.001",
+		"TechniqueName" : "DNS/Passive DNS"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1499.003",
+		"TechniqueName" : "Application Exhaustion Flood"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1195.001",
+		"TechniqueName" : "Compromise Software Dependencies and Development Tools"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1588.004",
+		"TechniqueName" : "Digital Certificates"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1583.002",
+		"TechniqueName" : "DNS Server"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1561",
+		"TechniqueName" : "Disk Wipe"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1071.004",
+		"TechniqueName" : "DNS"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1552.005",
+		"TechniqueName" : "Cloud Instance Metadata API"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1555.002",
+		"TechniqueName" : "Securityd Memory"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1615",
+		"TechniqueName" : "Group Policy Discovery"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1542.003",
+		"TechniqueName" : "Bootkit"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1542.003",
+		"TechniqueName" : "Bootkit"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1025",
+		"TechniqueName" : "Data from Removable Media"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218.013",
+		"TechniqueName" : "Mavinject"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1074.001",
+		"TechniqueName" : "Local Data Staging"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1036.005",
+		"TechniqueName" : "Match Legitimate Name or Location"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1587.003",
+		"TechniqueName" : "Digital Certificates"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1565.001",
+		"TechniqueName" : "Stored Data Manipulation"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1110.002",
+		"TechniqueName" : "Password Cracking"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1114.001",
+		"TechniqueName" : "Local Email Collection"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1555.001",
+		"TechniqueName" : "Keychain"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547",
+		"TechniqueName" : "Boot or Logon Autostart Execution"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547",
+		"TechniqueName" : "Boot or Logon Autostart Execution"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1003.004",
+		"TechniqueName" : "LSA Secrets"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1600",
+		"TechniqueName" : "Weaken Encryption"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1606.002",
+		"TechniqueName" : "SAML Tokens"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1036.008",
+		"TechniqueName" : "Masquerade File Type"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1489",
+		"TechniqueName" : "Service Stop"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1587.001",
+		"TechniqueName" : "Malware"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1652",
+		"TechniqueName" : "Device Driver Discovery"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1087.002",
+		"TechniqueName" : "Domain Account"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547.014",
+		"TechniqueName" : "Active Setup"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547.014",
+		"TechniqueName" : "Active Setup"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1564",
+		"TechniqueName" : "Hide Artifacts"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1559.002",
+		"TechniqueName" : "Dynamic Data Exchange"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1204.002",
+		"TechniqueName" : "Malicious File"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1591.003",
+		"TechniqueName" : "Identify Business Tempo"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1592.001",
+		"TechniqueName" : "Hardware"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1080",
+		"TechniqueName" : "Taint Shared Content"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1484.002",
+		"TechniqueName" : "Trust Modification"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1484.002",
+		"TechniqueName" : "Trust Modification"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1573.001",
+		"TechniqueName" : "Symmetric Cryptography"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1087.001",
+		"TechniqueName" : "Local Account"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1586.001",
+		"TechniqueName" : "Social Media Accounts"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1562.009",
+		"TechniqueName" : "Safe Mode Boot"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1542.005",
+		"TechniqueName" : "TFTP Boot"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1542.005",
+		"TechniqueName" : "TFTP Boot"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1543.003",
+		"TechniqueName" : "Windows Service"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1543.003",
+		"TechniqueName" : "Windows Service"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1568.001",
+		"TechniqueName" : "Fast Flux DNS"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1497.001",
+		"TechniqueName" : "System Checks"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1497.001",
+		"TechniqueName" : "System Checks"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1053.003",
+		"TechniqueName" : "Cron"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1053.003",
+		"TechniqueName" : "Cron"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1053.003",
+		"TechniqueName" : "Cron"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1069.002",
+		"TechniqueName" : "Domain Groups"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1588.006",
+		"TechniqueName" : "Vulnerabilities"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1566.002",
+		"TechniqueName" : "Spearphishing Link"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1070.002",
+		"TechniqueName" : "Clear Linux or Mac System Logs"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1499.004",
+		"TechniqueName" : "Application or System Exploitation"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1137",
+		"TechniqueName" : "Office Application Startup"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218.004",
+		"TechniqueName" : "InstallUtil"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1598.003",
+		"TechniqueName" : "Spearphishing Link"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1021.004",
+		"TechniqueName" : "SSH"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1098.003",
+		"TechniqueName" : "Additional Cloud Roles"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1098.003",
+		"TechniqueName" : "Additional Cloud Roles"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547.012",
+		"TechniqueName" : "Print Processors"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547.012",
+		"TechniqueName" : "Print Processors"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1566.001",
+		"TechniqueName" : "Spearphishing Attachment"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1027.008",
+		"TechniqueName" : "Stripped Payloads"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1559.001",
+		"TechniqueName" : "Component Object Model"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1574.001",
+		"TechniqueName" : "DLL Search Order Hijacking"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1574.001",
+		"TechniqueName" : "DLL Search Order Hijacking"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1574.001",
+		"TechniqueName" : "DLL Search Order Hijacking"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1119",
+		"TechniqueName" : "Automated Collection"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1115",
+		"TechniqueName" : "Clipboard Data"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1003.007",
+		"TechniqueName" : "Proc Filesystem"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1583.005",
+		"TechniqueName" : "Botnet"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1555.005",
+		"TechniqueName" : "Password Managers"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1553.001",
+		"TechniqueName" : "Gatekeeper Bypass"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1608.004",
+		"TechniqueName" : "Drive-by Target"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1007",
+		"TechniqueName" : "System Service Discovery"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1040",
+		"TechniqueName" : "Network Sniffing"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1040",
+		"TechniqueName" : "Network Sniffing"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1553.002",
+		"TechniqueName" : "Code Signing"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1530",
+		"TechniqueName" : "Data from Cloud Storage"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1565.003",
+		"TechniqueName" : "Runtime Data Manipulation"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1552.002",
+		"TechniqueName" : "Credentials in Registry"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1135",
+		"TechniqueName" : "Network Share Discovery"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1120",
+		"TechniqueName" : "Peripheral Device Discovery"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1036.009",
+		"TechniqueName" : "Break Process Trees"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1590.004",
+		"TechniqueName" : "Network Topology"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1587.002",
+		"TechniqueName" : "Code Signing Certificates"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1222.001",
+		"TechniqueName" : "Windows File and Directory Permissions Modification"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1137.006",
+		"TechniqueName" : "Add-ins"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1505.002",
+		"TechniqueName" : "Transport Agent"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1082",
+		"TechniqueName" : "System Information Discovery"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1071",
+		"TechniqueName" : "Application Layer Protocol"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1574.014",
+		"TechniqueName" : "AppDomainManager"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1574.014",
+		"TechniqueName" : "AppDomainManager"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1574.014",
+		"TechniqueName" : "AppDomainManager"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1074.002",
+		"TechniqueName" : "Remote Data Staging"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1098.006",
+		"TechniqueName" : "Additional Container Cluster Roles"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1098.006",
+		"TechniqueName" : "Additional Container Cluster Roles"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1053",
+		"TechniqueName" : "Scheduled Task/Job"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1053",
+		"TechniqueName" : "Scheduled Task/Job"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1053",
+		"TechniqueName" : "Scheduled Task/Job"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218.007",
+		"TechniqueName" : "Msiexec"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1590.003",
+		"TechniqueName" : "Network Trust Dependencies"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1498.002",
+		"TechniqueName" : "Reflection Amplification"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1556.002",
+		"TechniqueName" : "Password Filter DLL"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1556.002",
+		"TechniqueName" : "Password Filter DLL"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1556.002",
+		"TechniqueName" : "Password Filter DLL"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1505.005",
+		"TechniqueName" : "Terminal Services DLL"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1059.002",
+		"TechniqueName" : "AppleScript"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1176",
+		"TechniqueName" : "Browser Extensions"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1499.002",
+		"TechniqueName" : "Service Exhaustion Flood"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1195.003",
+		"TechniqueName" : "Compromise Hardware Supply Chain"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1106",
+		"TechniqueName" : "Native API"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1070.007",
+		"TechniqueName" : "Clear Network Connection History and Configurations"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1558.004",
+		"TechniqueName" : "AS-REP Roasting"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1584.003",
+		"TechniqueName" : "Virtual Private Server"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1059.010",
+		"TechniqueName" : "AutoHotKey & AutoIT"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1600.001",
+		"TechniqueName" : "Reduce Key Space"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1070.003",
+		"TechniqueName" : "Clear Command History"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1202",
+		"TechniqueName" : "Indirect Command Execution"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1091",
+		"TechniqueName" : "Replication Through Removable Media"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1091",
+		"TechniqueName" : "Replication Through Removable Media"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1005",
+		"TechniqueName" : "Data from Local System"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1140",
+		"TechniqueName" : "Deobfuscate/Decode Files or Information"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1137.005",
+		"TechniqueName" : "Outlook Rules"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1562",
+		"TechniqueName" : "Impair Defenses"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1586.003",
+		"TechniqueName" : "Cloud Accounts"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1586.002",
+		"TechniqueName" : "Email Accounts"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1608.001",
+		"TechniqueName" : "Upload Malware"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1195",
+		"TechniqueName" : "Supply Chain Compromise"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1190",
+		"TechniqueName" : "Exploit Public-Facing Application"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1558",
+		"TechniqueName" : "Steal or Forge Kerberos Tickets"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1555",
+		"TechniqueName" : "Credentials from Password Stores"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1567",
+		"TechniqueName" : "Exfiltration Over Web Service"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1219",
+		"TechniqueName" : "Remote Access Software"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1583.001",
+		"TechniqueName" : "Domains"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1560.002",
+		"TechniqueName" : "Archive via Library"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1055.003",
+		"TechniqueName" : "Thread Execution Hijacking"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1055.003",
+		"TechniqueName" : "Thread Execution Hijacking"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1036",
+		"TechniqueName" : "Masquerading"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.011",
+		"TechniqueName" : "Application Shimming"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.011",
+		"TechniqueName" : "Application Shimming"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1552",
+		"TechniqueName" : "Unsecured Credentials"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547.010",
+		"TechniqueName" : "Port Monitors"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547.010",
+		"TechniqueName" : "Port Monitors"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1070.008",
+		"TechniqueName" : "Clear Mailbox Data"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1037.002",
+		"TechniqueName" : "Login Hook"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1037.002",
+		"TechniqueName" : "Login Hook"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1659",
+		"TechniqueName" : "Content Injection"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1659",
+		"TechniqueName" : "Content Injection"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1055",
+		"TechniqueName" : "Process Injection"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1055",
+		"TechniqueName" : "Process Injection"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1567.004",
+		"TechniqueName" : "Exfiltration Over Webhook"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1205",
+		"TechniqueName" : "Traffic Signaling"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1205",
+		"TechniqueName" : "Traffic Signaling"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1205",
+		"TechniqueName" : "Traffic Signaling"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1021.008",
+		"TechniqueName" : "Direct Cloud VM Connections"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218",
+		"TechniqueName" : "System Binary Proxy Execution"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1070.006",
+		"TechniqueName" : "Timestomp"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1620",
+		"TechniqueName" : "Reflective Code Loading"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1016.002",
+		"TechniqueName" : "Wi-Fi Discovery"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1564.011",
+		"TechniqueName" : "Ignore Process Interrupts"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1611",
+		"TechniqueName" : "Escape to Host"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547.009",
+		"TechniqueName" : "Shortcut Modification"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547.009",
+		"TechniqueName" : "Shortcut Modification"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1010",
+		"TechniqueName" : "Application Window Discovery"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1087.003",
+		"TechniqueName" : "Email Account"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1497.003",
+		"TechniqueName" : "Time Based Evasion"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1497.003",
+		"TechniqueName" : "Time Based Evasion"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218.003",
+		"TechniqueName" : "CMSTP"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1563.001",
+		"TechniqueName" : "SSH Hijacking"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1562.002",
+		"TechniqueName" : "Disable Windows Event Logging"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1029",
+		"TechniqueName" : "Scheduled Transfer"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1021.002",
+		"TechniqueName" : "SMB/Windows Admin Shares"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1525",
+		"TechniqueName" : "Implant Internal Image"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1572",
+		"TechniqueName" : "Protocol Tunneling"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218.002",
+		"TechniqueName" : "Control Panel"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1599.001",
+		"TechniqueName" : "Network Address Translation Traversal"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1608.002",
+		"TechniqueName" : "Upload Tool"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547.005",
+		"TechniqueName" : "Security Support Provider"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547.005",
+		"TechniqueName" : "Security Support Provider"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1550",
+		"TechniqueName" : "Use Alternate Authentication Material"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1550",
+		"TechniqueName" : "Use Alternate Authentication Material"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1597.001",
+		"TechniqueName" : "Threat Intel Vendors"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1011",
+		"TechniqueName" : "Exfiltration Over Other Network Medium"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1602.002",
+		"TechniqueName" : "Network Device Configuration Dump"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1589",
+		"TechniqueName" : "Gather Victim Identity Information"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1562.004",
+		"TechniqueName" : "Disable or Modify System Firewall"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1560",
+		"TechniqueName" : "Archive Collected Data"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1553.003",
+		"TechniqueName" : "SIP and Trust Provider Hijacking"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1185",
+		"TechniqueName" : "Browser Session Hijacking"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1021",
+		"TechniqueName" : "Remote Services"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1071.003",
+		"TechniqueName" : "Mail Protocols"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1556.007",
+		"TechniqueName" : "Hybrid Identity"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1556.007",
+		"TechniqueName" : "Hybrid Identity"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1556.007",
+		"TechniqueName" : "Hybrid Identity"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1595.002",
+		"TechniqueName" : "Vulnerability Scanning"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1059.009",
+		"TechniqueName" : "Cloud API"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1596",
+		"TechniqueName" : "Search Open Technical Databases"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218.015",
+		"TechniqueName" : "Electron Applications"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1562.012",
+		"TechniqueName" : "Disable or Modify Linux Audit System"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1207",
+		"TechniqueName" : "Rogue Domain Controller"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1553.006",
+		"TechniqueName" : "Code Signing Policy Modification"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1610",
+		"TechniqueName" : "Deploy Container"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1610",
+		"TechniqueName" : "Deploy Container"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1112",
+		"TechniqueName" : "Modify Registry"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1543.004",
+		"TechniqueName" : "Launch Daemon"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1543.004",
+		"TechniqueName" : "Launch Daemon"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1580",
+		"TechniqueName" : "Cloud Infrastructure Discovery"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1555.003",
+		"TechniqueName" : "Credentials from Web Browsers"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1574.008",
+		"TechniqueName" : "Path Interception by Search Order Hijacking"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1574.008",
+		"TechniqueName" : "Path Interception by Search Order Hijacking"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1574.008",
+		"TechniqueName" : "Path Interception by Search Order Hijacking"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1491",
+		"TechniqueName" : "Defacement"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1535",
+		"TechniqueName" : "Unused/Unsupported Cloud Regions"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1557.003",
+		"TechniqueName" : "DHCP Spoofing"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1557.003",
+		"TechniqueName" : "DHCP Spoofing"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1563",
+		"TechniqueName" : "Remote Service Session Hijacking"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1027.001",
+		"TechniqueName" : "Binary Padding"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1505.003",
+		"TechniqueName" : "Web Shell"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1484.001",
+		"TechniqueName" : "Group Policy Modification"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1484.001",
+		"TechniqueName" : "Group Policy Modification"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1217",
+		"TechniqueName" : "Browser Information Discovery"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1552.004",
+		"TechniqueName" : "Private Keys"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1583.004",
+		"TechniqueName" : "Server"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1021.006",
+		"TechniqueName" : "Windows Remote Management"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1011.001",
+		"TechniqueName" : "Exfiltration Over Bluetooth"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1078.001",
+		"TechniqueName" : "Default Accounts"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1078.001",
+		"TechniqueName" : "Default Accounts"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1078.001",
+		"TechniqueName" : "Default Accounts"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1078.001",
+		"TechniqueName" : "Default Accounts"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547.003",
+		"TechniqueName" : "Time Providers"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547.003",
+		"TechniqueName" : "Time Providers"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.005",
+		"TechniqueName" : "Trap"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.005",
+		"TechniqueName" : "Trap"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1574.006",
+		"TechniqueName" : "Dynamic Linker Hijacking"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1574.006",
+		"TechniqueName" : "Dynamic Linker Hijacking"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1574.006",
+		"TechniqueName" : "Dynamic Linker Hijacking"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1136.001",
+		"TechniqueName" : "Local Account"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1092",
+		"TechniqueName" : "Communication Through Removable Media"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1070.001",
+		"TechniqueName" : "Clear Windows Event Logs"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1585.002",
+		"TechniqueName" : "Email Accounts"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1557.001",
+		"TechniqueName" : "LLMNR/NBT-NS Poisoning and SMB Relay"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1557.001",
+		"TechniqueName" : "LLMNR/NBT-NS Poisoning and SMB Relay"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1222",
+		"TechniqueName" : "File and Directory Permissions Modification"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1003.001",
+		"TechniqueName" : "LSASS Memory"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1595",
+		"TechniqueName" : "Active Scanning"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1548",
+		"TechniqueName" : "Abuse Elevation Control Mechanism"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1548",
+		"TechniqueName" : "Abuse Elevation Control Mechanism"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1134.002",
+		"TechniqueName" : "Create Process with Token"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1134.002",
+		"TechniqueName" : "Create Process with Token"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1548.001",
+		"TechniqueName" : "Setuid and Setgid"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1548.001",
+		"TechniqueName" : "Setuid and Setgid"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547.004",
+		"TechniqueName" : "Winlogon Helper DLL"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547.004",
+		"TechniqueName" : "Winlogon Helper DLL"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1021.003",
+		"TechniqueName" : "Distributed Component Object Model"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1110.003",
+		"TechniqueName" : "Password Spraying"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1090.002",
+		"TechniqueName" : "External Proxy"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1056.003",
+		"TechniqueName" : "Web Portal Capture"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1056.003",
+		"TechniqueName" : "Web Portal Capture"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1589.002",
+		"TechniqueName" : "Email Addresses"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1598.004",
+		"TechniqueName" : "Spearphishing Voice"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1003.005",
+		"TechniqueName" : "Cached Domain Credentials"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1098.004",
+		"TechniqueName" : "SSH Authorized Keys"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1098.004",
+		"TechniqueName" : "SSH Authorized Keys"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1590.006",
+		"TechniqueName" : "Network Security Appliances"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.012",
+		"TechniqueName" : "Image File Execution Options Injection"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.012",
+		"TechniqueName" : "Image File Execution Options Injection"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218.008",
+		"TechniqueName" : "Odbcconf"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1593.002",
+		"TechniqueName" : "Search Engines"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1591.002",
+		"TechniqueName" : "Business Relationships"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1548.005",
+		"TechniqueName" : "Temporary Elevated Cloud Access"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1548.005",
+		"TechniqueName" : "Temporary Elevated Cloud Access"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1125",
+		"TechniqueName" : "Video Capture"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1055.013",
+		"TechniqueName" : "Process Doppelgänging"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1055.013",
+		"TechniqueName" : "Process Doppelgänging"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1016",
+		"TechniqueName" : "System Network Configuration Discovery"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1578.003",
+		"TechniqueName" : "Delete Cloud Instance"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1593.003",
+		"TechniqueName" : "Code Repositories"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1574.005",
+		"TechniqueName" : "Executable Installer File Permissions Weakness"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1574.005",
+		"TechniqueName" : "Executable Installer File Permissions Weakness"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1574.005",
+		"TechniqueName" : "Executable Installer File Permissions Weakness"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.008",
+		"TechniqueName" : "Accessibility Features"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.008",
+		"TechniqueName" : "Accessibility Features"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1087",
+		"TechniqueName" : "Account Discovery"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1090",
+		"TechniqueName" : "Proxy"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1059",
+		"TechniqueName" : "Command and Scripting Interpreter"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1562.006",
+		"TechniqueName" : "Indicator Blocking"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1136.002",
+		"TechniqueName" : "Domain Account"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1589.003",
+		"TechniqueName" : "Employee Names"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1482",
+		"TechniqueName" : "Domain Trust Discovery"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1558.001",
+		"TechniqueName" : "Golden Ticket"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1020",
+		"TechniqueName" : "Automated Exfiltration"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1592.004",
+		"TechniqueName" : "Client Configurations"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1562.007",
+		"TechniqueName" : "Disable or Modify Cloud Firewall"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1036.002",
+		"TechniqueName" : "Right-to-Left Override"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1588.001",
+		"TechniqueName" : "Malware"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1542.002",
+		"TechniqueName" : "Component Firmware"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1542.002",
+		"TechniqueName" : "Component Firmware"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1070",
+		"TechniqueName" : "Indicator Removal"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1048.001",
+		"TechniqueName" : "Exfiltration Over Symmetric Encrypted Non-C2 Protocol"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1137.001",
+		"TechniqueName" : "Office Template Macros"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1583.003",
+		"TechniqueName" : "Virtual Private Server"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1213.001",
+		"TechniqueName" : "Confluence"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1550.003",
+		"TechniqueName" : "Pass the Ticket"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1550.003",
+		"TechniqueName" : "Pass the Ticket"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1609",
+		"TechniqueName" : "Container Administration Command"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1083",
+		"TechniqueName" : "File and Directory Discovery"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1568",
+		"TechniqueName" : "Dynamic Resolution"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1036.004",
+		"TechniqueName" : "Masquerade Task or Service"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1055.004",
+		"TechniqueName" : "Asynchronous Procedure Call"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1055.004",
+		"TechniqueName" : "Asynchronous Procedure Call"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1020.001",
+		"TechniqueName" : "Traffic Duplication"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1647",
+		"TechniqueName" : "Plist File Modification"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.009",
+		"TechniqueName" : "AppCert DLLs"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.009",
+		"TechniqueName" : "AppCert DLLs"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1114.003",
+		"TechniqueName" : "Email Forwarding Rule"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1074",
+		"TechniqueName" : "Data Staged"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1649",
+		"TechniqueName" : "Steal or Forge Authentication Certificates"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1098.005",
+		"TechniqueName" : "Device Registration"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1098.005",
+		"TechniqueName" : "Device Registration"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1049",
+		"TechniqueName" : "System Network Connections Discovery"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1584",
+		"TechniqueName" : "Compromise Infrastructure"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1553.005",
+		"TechniqueName" : "Mark-of-the-Web Bypass"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1600.002",
+		"TechniqueName" : "Disable Crypto Hardware"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1542",
+		"TechniqueName" : "Pre-OS Boot"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1542",
+		"TechniqueName" : "Pre-OS Boot"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1612",
+		"TechniqueName" : "Build Image on Host"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1055.002",
+		"TechniqueName" : "Portable Executable Injection"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1055.002",
+		"TechniqueName" : "Portable Executable Injection"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218.012",
+		"TechniqueName" : "Verclsid"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1586",
+		"TechniqueName" : "Compromise Accounts"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1569.001",
+		"TechniqueName" : "Launchctl"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1584.005",
+		"TechniqueName" : "Botnet"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1059.008",
+		"TechniqueName" : "Network Device CLI"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1552.003",
+		"TechniqueName" : "Bash History"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1562.010",
+		"TechniqueName" : "Downgrade Attack"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1559.003",
+		"TechniqueName" : "XPC Services"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1497",
+		"TechniqueName" : "Virtualization/Sandbox Evasion"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1497",
+		"TechniqueName" : "Virtualization/Sandbox Evasion"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1102",
+		"TechniqueName" : "Web Service"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1552.001",
+		"TechniqueName" : "Credentials In Files"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1568.003",
+		"TechniqueName" : "DNS Calculation"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218.005",
+		"TechniqueName" : "Mshta"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547.015",
+		"TechniqueName" : "Login Items"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547.015",
+		"TechniqueName" : "Login Items"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1608",
+		"TechniqueName" : "Stage Capabilities"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1608.005",
+		"TechniqueName" : "Link Target"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1104",
+		"TechniqueName" : "Multi-Stage Channels"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1657",
+		"TechniqueName" : "Financial Theft"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1480",
+		"TechniqueName" : "Execution Guardrails"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1619",
+		"TechniqueName" : "Cloud Storage Object Discovery"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1606.001",
+		"TechniqueName" : "Web Cookies"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1654",
+		"TechniqueName" : "Log Enumeration"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1134.001",
+		"TechniqueName" : "Token Impersonation/Theft"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1134.001",
+		"TechniqueName" : "Token Impersonation/Theft"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1567.001",
+		"TechniqueName" : "Exfiltration to Code Repository"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1021.007",
+		"TechniqueName" : "Cloud Services"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1205.001",
+		"TechniqueName" : "Port Knocking"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1205.001",
+		"TechniqueName" : "Port Knocking"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1205.001",
+		"TechniqueName" : "Port Knocking"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1027.012",
+		"TechniqueName" : "LNK Icon Smuggling"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1583.006",
+		"TechniqueName" : "Web Services"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1528",
+		"TechniqueName" : "Steal Application Access Token"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1598.002",
+		"TechniqueName" : "Spearphishing Attachment"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1098.001",
+		"TechniqueName" : "Additional Cloud Credentials"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1098.001",
+		"TechniqueName" : "Additional Cloud Credentials"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1204",
+		"TechniqueName" : "User Execution"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1491.001",
+		"TechniqueName" : "Internal Defacement"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1564.002",
+		"TechniqueName" : "Hidden Users"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1134.003",
+		"TechniqueName" : "Make and Impersonate Token"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1134.003",
+		"TechniqueName" : "Make and Impersonate Token"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1552.006",
+		"TechniqueName" : "Group Policy Preferences"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1048.002",
+		"TechniqueName" : "Exfiltration Over Asymmetric Encrypted Non-C2 Protocol"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1087.004",
+		"TechniqueName" : "Cloud Account"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1057",
+		"TechniqueName" : "Process Discovery"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1562.003",
+		"TechniqueName" : "Impair Command History Logging"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1556.008",
+		"TechniqueName" : "Network Provider DLL"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1556.008",
+		"TechniqueName" : "Network Provider DLL"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1556.008",
+		"TechniqueName" : "Network Provider DLL"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.003",
+		"TechniqueName" : "Windows Management Instrumentation Event Subscription"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.003",
+		"TechniqueName" : "Windows Management Instrumentation Event Subscription"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1596.004",
+		"TechniqueName" : "CDNs"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1497.002",
+		"TechniqueName" : "User Activity Based Checks"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1497.002",
+		"TechniqueName" : "User Activity Based Checks"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1585.003",
+		"TechniqueName" : "Cloud Accounts"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1072",
+		"TechniqueName" : "Software Deployment Tools"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1072",
+		"TechniqueName" : "Software Deployment Tools"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1041",
+		"TechniqueName" : "Exfiltration Over C2 Channel"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1134.004",
+		"TechniqueName" : "Parent PID Spoofing"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1134.004",
+		"TechniqueName" : "Parent PID Spoofing"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1591",
+		"TechniqueName" : "Gather Victim Org Information"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1606",
+		"TechniqueName" : "Forge Web Credentials"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1621",
+		"TechniqueName" : "Multi-Factor Authentication Request Generation"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1554",
+		"TechniqueName" : "Compromise Host Software Binary"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1552.008",
+		"TechniqueName" : "Chat Messages"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1059.001",
+		"TechniqueName" : "PowerShell"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.001",
+		"TechniqueName" : "Change Default File Association"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.001",
+		"TechniqueName" : "Change Default File Association"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1055.014",
+		"TechniqueName" : "VDSO Hijacking"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1055.014",
+		"TechniqueName" : "VDSO Hijacking"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1071.002",
+		"TechniqueName" : "File Transfer Protocols"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1212",
+		"TechniqueName" : "Exploitation for Credential Access"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.014",
+		"TechniqueName" : "Emond"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.014",
+		"TechniqueName" : "Emond"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1102.003",
+		"TechniqueName" : "One-Way Communication"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1590",
+		"TechniqueName" : "Gather Victim Network Information"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1210",
+		"TechniqueName" : "Exploitation of Remote Services"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1534",
+		"TechniqueName" : "Internal Spearphishing"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1574.010",
+		"TechniqueName" : "Services File Permissions Weakness"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1574.010",
+		"TechniqueName" : "Services File Permissions Weakness"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1574.010",
+		"TechniqueName" : "Services File Permissions Weakness"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547.001",
+		"TechniqueName" : "Registry Run Keys / Startup Folder"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547.001",
+		"TechniqueName" : "Registry Run Keys / Startup Folder"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1199",
+		"TechniqueName" : "Trusted Relationship"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1136.003",
+		"TechniqueName" : "Cloud Account"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1069.001",
+		"TechniqueName" : "Local Groups"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1593",
+		"TechniqueName" : "Search Open Websites/Domains"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1098",
+		"TechniqueName" : "Account Manipulation"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1098",
+		"TechniqueName" : "Account Manipulation"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1048",
+		"TechniqueName" : "Exfiltration Over Alternative Protocol"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547.006",
+		"TechniqueName" : "Kernel Modules and Extensions"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547.006",
+		"TechniqueName" : "Kernel Modules and Extensions"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1056.002",
+		"TechniqueName" : "GUI Input Capture"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1056.002",
+		"TechniqueName" : "GUI Input Capture"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1588.002",
+		"TechniqueName" : "Tool"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1052.001",
+		"TechniqueName" : "Exfiltration over USB"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1574.013",
+		"TechniqueName" : "KernelCallbackTable"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1574.013",
+		"TechniqueName" : "KernelCallbackTable"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1574.013",
+		"TechniqueName" : "KernelCallbackTable"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1597",
+		"TechniqueName" : "Search Closed Sources"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1053.006",
+		"TechniqueName" : "Systemd Timers"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1053.006",
+		"TechniqueName" : "Systemd Timers"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1053.006",
+		"TechniqueName" : "Systemd Timers"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1566",
+		"TechniqueName" : "Phishing"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1542.004",
+		"TechniqueName" : "ROMMONkit"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1542.004",
+		"TechniqueName" : "ROMMONkit"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218.001",
+		"TechniqueName" : "Compiled HTML File"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1070.005",
+		"TechniqueName" : "Network Share Connection Removal"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1090.003",
+		"TechniqueName" : "Multi-hop Proxy"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1110",
+		"TechniqueName" : "Brute Force"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1059.004",
+		"TechniqueName" : "Unix Shell"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1137.003",
+		"TechniqueName" : "Outlook Forms"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1562.001",
+		"TechniqueName" : "Disable or Modify Tools"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1565",
+		"TechniqueName" : "Data Manipulation"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1559",
+		"TechniqueName" : "Inter-Process Communication"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1001",
+		"TechniqueName" : "Data Obfuscation"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1039",
+		"TechniqueName" : "Data from Network Shared Drive"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1584.006",
+		"TechniqueName" : "Web Services"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1601",
+		"TechniqueName" : "Modify System Image"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1574",
+		"TechniqueName" : "Hijack Execution Flow"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1574",
+		"TechniqueName" : "Hijack Execution Flow"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1574",
+		"TechniqueName" : "Hijack Execution Flow"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1027.005",
+		"TechniqueName" : "Indicator Removal from Tools"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1204.003",
+		"TechniqueName" : "Malicious Image"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1543.005",
+		"TechniqueName" : "Container Service"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1543.005",
+		"TechniqueName" : "Container Service"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1078",
+		"TechniqueName" : "Valid Accounts"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1078",
+		"TechniqueName" : "Valid Accounts"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1078",
+		"TechniqueName" : "Valid Accounts"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1078",
+		"TechniqueName" : "Valid Accounts"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1571",
+		"TechniqueName" : "Non-Standard Port"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1585.001",
+		"TechniqueName" : "Social Media Accounts"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1055.012",
+		"TechniqueName" : "Process Hollowing"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1055.012",
+		"TechniqueName" : "Process Hollowing"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1068",
+		"TechniqueName" : "Exploitation for Privilege Escalation"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1564.009",
+		"TechniqueName" : "Resource Forking"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1531",
+		"TechniqueName" : "Account Access Removal"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1110.004",
+		"TechniqueName" : "Credential Stuffing"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1027",
+		"TechniqueName" : "Obfuscated Files or Information"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1556.006",
+		"TechniqueName" : "Multi-Factor Authentication"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1556.006",
+		"TechniqueName" : "Multi-Factor Authentication"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1556.006",
+		"TechniqueName" : "Multi-Factor Authentication"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1114.002",
+		"TechniqueName" : "Remote Email Collection"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1505.004",
+		"TechniqueName" : "IIS Components"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1036.001",
+		"TechniqueName" : "Invalid Code Signature"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1564.006",
+		"TechniqueName" : "Run Virtual Instance"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1201",
+		"TechniqueName" : "Password Policy Discovery"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546",
+		"TechniqueName" : "Event Triggered Execution"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546",
+		"TechniqueName" : "Event Triggered Execution"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.004",
+		"TechniqueName" : "Unix Shell Configuration Modification"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.004",
+		"TechniqueName" : "Unix Shell Configuration Modification"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1187",
+		"TechniqueName" : "Forced Authentication"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1134.005",
+		"TechniqueName" : "SID-History Injection"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1134.005",
+		"TechniqueName" : "SID-History Injection"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1599",
+		"TechniqueName" : "Network Boundary Bridging"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1486",
+		"TechniqueName" : "Data Encrypted for Impact"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1553",
+		"TechniqueName" : "Subvert Trust Controls"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1548.004",
+		"TechniqueName" : "Elevated Execution with Prompt"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1548.004",
+		"TechniqueName" : "Elevated Execution with Prompt"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1592.003",
+		"TechniqueName" : "Firmware"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1573",
+		"TechniqueName" : "Encrypted Channel"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547.002",
+		"TechniqueName" : "Authentication Package"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547.002",
+		"TechniqueName" : "Authentication Package"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218.010",
+		"TechniqueName" : "Regsvr32"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1567.003",
+		"TechniqueName" : "Exfiltration to Text Storage Sites"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1592.002",
+		"TechniqueName" : "Software"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1056",
+		"TechniqueName" : "Input Capture"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1056",
+		"TechniqueName" : "Input Capture"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1566.004",
+		"TechniqueName" : "Spearphishing Voice"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1587.004",
+		"TechniqueName" : "Exploits"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1593.001",
+		"TechniqueName" : "Social Media"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.015",
+		"TechniqueName" : "Component Object Model Hijacking"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.015",
+		"TechniqueName" : "Component Object Model Hijacking"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1589.001",
+		"TechniqueName" : "Credentials"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1195.002",
+		"TechniqueName" : "Compromise Software Supply Chain"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1036.003",
+		"TechniqueName" : "Rename System Utilities"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1102.002",
+		"TechniqueName" : "Bidirectional Communication"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1203",
+		"TechniqueName" : "Exploitation for Client Execution"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1595.003",
+		"TechniqueName" : "Wordlist Scanning"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1562.011",
+		"TechniqueName" : "Spoof Security Alerting"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1137.004",
+		"TechniqueName" : "Outlook Home Page"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1573.002",
+		"TechniqueName" : "Asymmetric Cryptography"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1567.002",
+		"TechniqueName" : "Exfiltration to Cloud Storage"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1570",
+		"TechniqueName" : "Lateral Tool Transfer"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1574.009",
+		"TechniqueName" : "Path Interception by Unquoted Path"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1574.009",
+		"TechniqueName" : "Path Interception by Unquoted Path"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1574.009",
+		"TechniqueName" : "Path Interception by Unquoted Path"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1608.003",
+		"TechniqueName" : "Install Digital Certificate"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1037.005",
+		"TechniqueName" : "Startup Items"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1037.005",
+		"TechniqueName" : "Startup Items"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1614.001",
+		"TechniqueName" : "System Language Discovery"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1095",
+		"TechniqueName" : "Non-Application Layer Protocol"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1027.003",
+		"TechniqueName" : "Steganography"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1584.002",
+		"TechniqueName" : "DNS Server"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1001.003",
+		"TechniqueName" : "Protocol Impersonation"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1012",
+		"TechniqueName" : "Query Registry"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1030",
+		"TechniqueName" : "Data Transfer Size Limits"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1550.004",
+		"TechniqueName" : "Web Session Cookie"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1550.004",
+		"TechniqueName" : "Web Session Cookie"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1078.002",
+		"TechniqueName" : "Domain Accounts"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1078.002",
+		"TechniqueName" : "Domain Accounts"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1078.002",
+		"TechniqueName" : "Domain Accounts"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1078.002",
+		"TechniqueName" : "Domain Accounts"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218.009",
+		"TechniqueName" : "Regsvcs/Regasm"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1553.004",
+		"TechniqueName" : "Install Root Certificate"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1037.003",
+		"TechniqueName" : "Network Logon Script"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1037.003",
+		"TechniqueName" : "Network Logon Script"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1499",
+		"TechniqueName" : "Endpoint Denial of Service"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1027.004",
+		"TechniqueName" : "Compile After Delivery"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1614",
+		"TechniqueName" : "System Location Discovery"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1564.007",
+		"TechniqueName" : "VBA Stomping"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1197",
+		"TechniqueName" : "BITS Jobs"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1197",
+		"TechniqueName" : "BITS Jobs"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1127.001",
+		"TechniqueName" : "MSBuild"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1656",
+		"TechniqueName" : "Impersonation"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1578.005",
+		"TechniqueName" : "Modify Cloud Compute Configurations"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1090.004",
+		"TechniqueName" : "Domain Fronting"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1557.002",
+		"TechniqueName" : "ARP Cache Poisoning"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1557.002",
+		"TechniqueName" : "ARP Cache Poisoning"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1562.008",
+		"TechniqueName" : "Disable or Modify Cloud Logs"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1518.001",
+		"TechniqueName" : "Security Software Discovery"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1564.003",
+		"TechniqueName" : "Hidden Window"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1059.006",
+		"TechniqueName" : "Python"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1591.004",
+		"TechniqueName" : "Identify Roles"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1132",
+		"TechniqueName" : "Data Encoding"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.010",
+		"TechniqueName" : "AppInit DLLs"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.010",
+		"TechniqueName" : "AppInit DLLs"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1598",
+		"TechniqueName" : "Phishing for Information"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1496",
+		"TechniqueName" : "Resource Hijacking"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1585",
+		"TechniqueName" : "Establish Accounts"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1588",
+		"TechniqueName" : "Obtain Capabilities"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.002",
+		"TechniqueName" : "Screensaver"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.002",
+		"TechniqueName" : "Screensaver"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1556.009",
+		"TechniqueName" : "Conditional Access Policies"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1556.009",
+		"TechniqueName" : "Conditional Access Policies"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1556.009",
+		"TechniqueName" : "Conditional Access Policies"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1578.002",
+		"TechniqueName" : "Create Cloud Instance"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1555.006",
+		"TechniqueName" : "Cloud Secrets Management Stores"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1213.003",
+		"TechniqueName" : "Code Repositories"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1565.002",
+		"TechniqueName" : "Transmitted Data Manipulation"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1003.008",
+		"TechniqueName" : "/etc/passwd and /etc/shadow"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1543.001",
+		"TechniqueName" : "Launch Agent"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1543.001",
+		"TechniqueName" : "Launch Agent"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1569",
+		"TechniqueName" : "System Services"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1059.003",
+		"TechniqueName" : "Windows Command Shell"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1055.009",
+		"TechniqueName" : "Proc Memory"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1055.009",
+		"TechniqueName" : "Proc Memory"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1650",
+		"TechniqueName" : "Acquire Access"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1601.001",
+		"TechniqueName" : "Patch System Image"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1558.002",
+		"TechniqueName" : "Silver Ticket"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1213",
+		"TechniqueName" : "Data from Information Repositories"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1070.009",
+		"TechniqueName" : "Clear Persistence"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1555.004",
+		"TechniqueName" : "Windows Credential Manager"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1200",
+		"TechniqueName" : "Hardware Additions"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1505",
+		"TechniqueName" : "Server Software Component"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1485",
+		"TechniqueName" : "Data Destruction"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1132.002",
+		"TechniqueName" : "Non-Standard Encoding"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1556.001",
+		"TechniqueName" : "Domain Controller Authentication"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1556.001",
+		"TechniqueName" : "Domain Controller Authentication"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1556.001",
+		"TechniqueName" : "Domain Controller Authentication"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1537",
+		"TechniqueName" : "Transfer Data to Cloud Account"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1027.006",
+		"TechniqueName" : "HTML Smuggling"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1556.005",
+		"TechniqueName" : "Reversible Encryption"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1556.005",
+		"TechniqueName" : "Reversible Encryption"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1556.005",
+		"TechniqueName" : "Reversible Encryption"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1027.010",
+		"TechniqueName" : "Command Obfuscation"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1070.004",
+		"TechniqueName" : "File Deletion"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1189",
+		"TechniqueName" : "Drive-by Compromise"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1498",
+		"TechniqueName" : "Network Denial of Service"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1651",
+		"TechniqueName" : "Cloud Administration Command"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.016",
+		"TechniqueName" : "Installer Packages"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.016",
+		"TechniqueName" : "Installer Packages"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1595.001",
+		"TechniqueName" : "Scanning IP Blocks"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1221",
+		"TechniqueName" : "Template Injection"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1037.004",
+		"TechniqueName" : "RC Scripts"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1037.004",
+		"TechniqueName" : "RC Scripts"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1134",
+		"TechniqueName" : "Access Token Manipulation"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1134",
+		"TechniqueName" : "Access Token Manipulation"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1111",
+		"TechniqueName" : "Multi-Factor Authentication Interception"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1027.002",
+		"TechniqueName" : "Software Packing"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1584.007",
+		"TechniqueName" : "Serverless"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1071.001",
+		"TechniqueName" : "Web Protocols"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1059.005",
+		"TechniqueName" : "Visual Basic"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1564.005",
+		"TechniqueName" : "Hidden File System"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1543.002",
+		"TechniqueName" : "Systemd Service"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1543.002",
+		"TechniqueName" : "Systemd Service"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1563.002",
+		"TechniqueName" : "RDP Hijacking"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1136",
+		"TechniqueName" : "Create Account"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547.013",
+		"TechniqueName" : "XDG Autostart Entries"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547.013",
+		"TechniqueName" : "XDG Autostart Entries"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1584.004",
+		"TechniqueName" : "Server"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1526",
+		"TechniqueName" : "Cloud Service Discovery"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1018",
+		"TechniqueName" : "Remote System Discovery"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1046",
+		"TechniqueName" : "Network Service Discovery"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1590.001",
+		"TechniqueName" : "Domain Properties"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1518",
+		"TechniqueName" : "Software Discovery"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1538",
+		"TechniqueName" : "Cloud Service Dashboard"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1055.005",
+		"TechniqueName" : "Thread Local Storage"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1055.005",
+		"TechniqueName" : "Thread Local Storage"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1622",
+		"TechniqueName" : "Debugger Evasion"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1622",
+		"TechniqueName" : "Debugger Evasion"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1036.006",
+		"TechniqueName" : "Space after Filename"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547.007",
+		"TechniqueName" : "Re-opened Applications"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547.007",
+		"TechniqueName" : "Re-opened Applications"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1608.006",
+		"TechniqueName" : "SEO Poisoning"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1550.002",
+		"TechniqueName" : "Pass the Hash"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1550.002",
+		"TechniqueName" : "Pass the Hash"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1052",
+		"TechniqueName" : "Exfiltration Over Physical Medium"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1574.002",
+		"TechniqueName" : "DLL Side-Loading"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1574.002",
+		"TechniqueName" : "DLL Side-Loading"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1574.002",
+		"TechniqueName" : "DLL Side-Loading"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1105",
+		"TechniqueName" : "Ingress Tool Transfer"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1216.002",
+		"TechniqueName" : "SyncAppvPublishingServer"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1098.002",
+		"TechniqueName" : "Additional Email Delegate Permissions"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1098.002",
+		"TechniqueName" : "Additional Email Delegate Permissions"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1588.003",
+		"TechniqueName" : "Code Signing Certificates"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1648",
+		"TechniqueName" : "Serverless Execution"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1548.006",
+		"TechniqueName" : "TCC Manipulation"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1548.006",
+		"TechniqueName" : "TCC Manipulation"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1055.008",
+		"TechniqueName" : "Ptrace System Calls"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1055.008",
+		"TechniqueName" : "Ptrace System Calls"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1653",
+		"TechniqueName" : "Power Settings"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1027.007",
+		"TechniqueName" : "Dynamic API Resolution"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1021.001",
+		"TechniqueName" : "Remote Desktop Protocol"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1037.001",
+		"TechniqueName" : "Logon Script (Windows)"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1037.001",
+		"TechniqueName" : "Logon Script (Windows)"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1055.015",
+		"TechniqueName" : "ListPlanting"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1055.015",
+		"TechniqueName" : "ListPlanting"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1665",
+		"TechniqueName" : "Hide Infrastructure"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1484",
+		"TechniqueName" : "Domain or Tenant Policy Modification"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1484",
+		"TechniqueName" : "Domain or Tenant Policy Modification"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1220",
+		"TechniqueName" : "XSL Script Processing"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1596.005",
+		"TechniqueName" : "Scan Databases"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1564.001",
+		"TechniqueName" : "Hidden Files and Directories"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1578.001",
+		"TechniqueName" : "Create Snapshot"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1591.001",
+		"TechniqueName" : "Determine Physical Locations"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1137.002",
+		"TechniqueName" : "Office Test"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1587",
+		"TechniqueName" : "Develop Capabilities"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1003.003",
+		"TechniqueName" : "NTDS"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1602.001",
+		"TechniqueName" : "SNMP (MIB Dump)"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1001.002",
+		"TechniqueName" : "Steganography"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1204.001",
+		"TechniqueName" : "Malicious Link"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1550.001",
+		"TechniqueName" : "Application Access Token"
+	},
+	{
+		"TacticID" : "TA0008",
+		"TacticName" : "lateral-movement",
+		"TechniqueID" : "T1550.001",
+		"TechniqueName" : "Application Access Token"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1547.008",
+		"TechniqueName" : "LSASS Driver"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1547.008",
+		"TechniqueName" : "LSASS Driver"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1569.002",
+		"TechniqueName" : "Service Execution"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1078.004",
+		"TechniqueName" : "Cloud Accounts"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1078.004",
+		"TechniqueName" : "Cloud Accounts"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1078.004",
+		"TechniqueName" : "Cloud Accounts"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1078.004",
+		"TechniqueName" : "Cloud Accounts"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1480.001",
+		"TechniqueName" : "Environmental Keying"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1008",
+		"TechniqueName" : "Fallback Channels"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1564.004",
+		"TechniqueName" : "NTFS File Attributes"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1558.003",
+		"TechniqueName" : "Kerberoasting"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1003.006",
+		"TechniqueName" : "DCSync"
+	},
+	{
+		"TacticID" : "TA0007",
+		"TacticName" : "discovery",
+		"TechniqueID" : "T1124",
+		"TechniqueName" : "System Time Discovery"
+	},
+	{
+		"TacticID" : "TA0002",
+		"TacticName" : "execution",
+		"TechniqueID" : "T1053.002",
+		"TechniqueName" : "At"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1053.002",
+		"TechniqueName" : "At"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1053.002",
+		"TechniqueName" : "At"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1055.001",
+		"TechniqueName" : "Dynamic-link Library Injection"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1055.001",
+		"TechniqueName" : "Dynamic-link Library Injection"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1588.005",
+		"TechniqueName" : "Exploits"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1556",
+		"TechniqueName" : "Modify Authentication Process"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1556",
+		"TechniqueName" : "Modify Authentication Process"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1556",
+		"TechniqueName" : "Modify Authentication Process"
+	},
+	{
+		"TacticID" : "TA0009",
+		"TacticName" : "collection",
+		"TechniqueID" : "T1056.004",
+		"TechniqueName" : "Credential API Hooking"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1056.004",
+		"TechniqueName" : "Credential API Hooking"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1495",
+		"TechniqueName" : "Firmware Corruption"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1490",
+		"TechniqueName" : "Inhibit System Recovery"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1546.007",
+		"TechniqueName" : "Netsh Helper DLL"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1546.007",
+		"TechniqueName" : "Netsh Helper DLL"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1566.003",
+		"TechniqueName" : "Spearphishing via Service"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1090.001",
+		"TechniqueName" : "Internal Proxy"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1216",
+		"TechniqueName" : "System Script Proxy Execution"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1102.001",
+		"TechniqueName" : "Dead Drop Resolver"
+	},
+	{
+		"TacticID" : "TA0011",
+		"TacticName" : "command-and-control",
+		"TechniqueID" : "T1001.001",
+		"TechniqueName" : "Junk Data"
+	},
+	{
+		"TacticID" : "TA0043",
+		"TacticName" : "reconnaissance",
+		"TechniqueID" : "T1598.001",
+		"TechniqueName" : "Spearphishing Service"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1552.007",
+		"TechniqueName" : "Container API"
+	},
+	{
+		"TacticID" : "TA0042",
+		"TacticName" : "resource-development",
+		"TechniqueID" : "T1584.001",
+		"TechniqueName" : "Domains"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1505.001",
+		"TechniqueName" : "SQL Stored Procedures"
+	},
+	{
+		"TacticID" : "TA0006",
+		"TacticName" : "credential-access",
+		"TechniqueID" : "T1556.004",
+		"TechniqueName" : "Network Device Authentication"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1556.004",
+		"TechniqueName" : "Network Device Authentication"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1556.004",
+		"TechniqueName" : "Network Device Authentication"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1561.001",
+		"TechniqueName" : "Disk Content Wipe"
+	},
+	{
+		"TacticID" : "TA0010",
+		"TacticName" : "exfiltration",
+		"TechniqueID" : "T1048.003",
+		"TechniqueName" : "Exfiltration Over Unencrypted Non-C2 Protocol"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1574.004",
+		"TechniqueName" : "Dylib Hijacking"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1574.004",
+		"TechniqueName" : "Dylib Hijacking"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1574.004",
+		"TechniqueName" : "Dylib Hijacking"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1601.002",
+		"TechniqueName" : "Downgrade System Image"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1078.003",
+		"TechniqueName" : "Local Accounts"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1078.003",
+		"TechniqueName" : "Local Accounts"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1078.003",
+		"TechniqueName" : "Local Accounts"
+	},
+	{
+		"TacticID" : "TA0001",
+		"TacticName" : "initial-access",
+		"TechniqueID" : "T1078.003",
+		"TechniqueName" : "Local Accounts"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1211",
+		"TechniqueName" : "Exploitation for Defense Evasion"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1127",
+		"TechniqueName" : "Trusted Developer Utilities Proxy Execution"
+	},
+	{
+		"TacticID" : "TA0040",
+		"TacticName" : "impact",
+		"TechniqueID" : "T1529",
+		"TechniqueName" : "System Shutdown/Reboot"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1218.014",
+		"TechniqueName" : "MMC"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1564.010",
+		"TechniqueName" : "Process Argument Spoofing"
+	},
+	{
+		"TacticID" : "TA0003",
+		"TacticName" : "persistence",
+		"TechniqueID" : "T1574.012",
+		"TechniqueName" : "COR_PROFILER"
+	},
+	{
+		"TacticID" : "TA0004",
+		"TacticName" : "privilege-escalation",
+		"TechniqueID" : "T1574.012",
+		"TechniqueName" : "COR_PROFILER"
+	},
+	{
+		"TacticID" : "TA0005",
+		"TacticName" : "defense-evasion",
+		"TechniqueID" : "T1574.012",
+		"TechniqueName" : "COR_PROFILER"
+	}
+]
