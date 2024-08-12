@@ -37,7 +37,7 @@ def main():
         # only correlation rules
         if (r['kind'] == 'correlationRule'
                 # only rules without MITRE mapping
-                and r['encoded']['payload']['mitre'] is None
+                and (r['encoded']['payload']['mitre'] is None or not r['encoded']['payload']['mitre'])
                 # not operational rules
                 and r['encoded']['payload']['kind'] in ['simple', 'standard']):
             techniques = get_techniques(r['encoded']['payload']['actions'])
