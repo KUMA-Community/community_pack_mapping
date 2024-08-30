@@ -1,12 +1,9 @@
 import json
 import re
-import os
-import codecs
 import argparse
-from kuma_package import decrypt, password_to_key, encrypt
+import light_crypter as lc
 
 RE_STRING = '(T\\d+\\.?\\d+)'
-TEMP_FILE = 'resources.temp'
 
 
 def get_techniques(actions):
@@ -22,11 +19,11 @@ def get_techniques(actions):
 
 
 def main():
-    decrypt(INPUT_FILE, TEMP_FILE, password_to_key(PASSWORD), pretty=False)
-    with open(TEMP_FILE, 'r') as f:
-        raw_resources = json.load(f)
+    with open(INPUT_FILE, 'rb') as f:
+        data = f.read()
 
-    os.remove(TEMP_FILE)
+    key = lc.password_to_key(PASSWORD)
+    raw_resources = lc.decrypt(data, key)
 
     resources = raw_resources['resources']
 
@@ -55,11 +52,9 @@ def main():
                         else:
                             r['encoded']['payload']['mitre'].append(mapping)
 
-    with codecs.open(TEMP_FILE, 'w') as f:
-        json.dump(raw_resources, f)
-
-    encrypt(TEMP_FILE, OUTPUT_FILE, password_to_key(PASSWORD))
-    os.remove(TEMP_FILE)
+    encrypted_data = lc.encrypt(raw_resources, key)
+    with open(OUTPUT_FILE, 'wb') as f:
+        f.write(encrypted_data)
 
 
 if __name__ == '__main__':
