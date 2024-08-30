@@ -25,7 +25,7 @@ python 3.12+
 - argparse
 - codecs
 - os
-- kuma_package (нужный файл уже есть в данном репозитории)
+- light_crypter (нужный файл уже есть в данном репозитории)
 # Использование скрипта
 ## Подготовка
 1. Поместите содержимое репозитория в удобную папку
@@ -49,7 +49,7 @@ options:
 ```
 ## Пример
 ```
-python kuma_remapper.py -i ExportedResource -p SuperSecurePassword -m mitre.json
+python kuma_remapper.py -i ExportedResource -p SuperSecurePassword -m mitre.json --output RemappedRules
 ```
 ## Результат
 В результате работы скрипта в директории запуска будет создан файл `remappedRules` (если не был переопределен в параметре `output`), содержащий все исходные ресурсы с новым способом мапинга правил.
